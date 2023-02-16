@@ -7,6 +7,7 @@ function random(number) {
 function bgChange(e) {
   const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
   e.target.style.backgroundColor = rndCol;
+  e.target.style.border = rndCol;
   console.log(e);
 }
 
