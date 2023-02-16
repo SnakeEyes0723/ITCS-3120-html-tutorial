@@ -15,3 +15,16 @@ li {
   color: orange;
   font-weight: bold;
 }
+
+li em {
+  color: rebeccapurple;
+}
+
+hi + p {
+  font-size: 200%;
+}
+
+p,
+span {
+  color: red;
+}
