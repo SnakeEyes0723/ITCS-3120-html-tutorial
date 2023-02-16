@@ -6,3 +6,7 @@ p,
 li {
   color: green;
 }
+
+li {
+  list-style-type: none;
+}
