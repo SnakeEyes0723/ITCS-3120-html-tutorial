@@ -23,7 +23,7 @@
         const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
         document.body.style.backgroundColor = rndCol;
       };
-      btn.addEventListener('mouseover', () => {
+      btn.addEventListener('keydown', (event) => {
         const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
         document.body.style.backgroundColor = rndCol;
       });
